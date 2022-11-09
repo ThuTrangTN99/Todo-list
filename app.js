@@ -45,6 +45,6 @@ const handleDelete = (id) => {
 
 //make completed
 const handleCompleted = (id) => {
-    todos = todos.map(el => el.id === id ? { ...el, iscompleted: !el.iscompleted } : el)
+    todos = todos.map(el => el.id === id ? { ...el, iscompleted: true } : el)
     showTodos();
 }
