@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(123, 123, 226);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 50px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.container form input {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid ghostwhite;
+    flex: 1;
+    border-radius: 8px;
+    border: none;
+}
+
+.container form button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.container form button:hover {
+    background-color: beige;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.todo-item .delete {
+    color: rgb(250, 26, 26);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.todo-item .not-completed {
+    background-color: rgb(57, 250, 66);
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
